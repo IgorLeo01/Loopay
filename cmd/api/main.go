@@ -1,10 +1,10 @@
 package api
 
 import (
+	"Loopay/internal/handlers"
+	"Loopay/internal/repositories"
+	"Loopay/internal/services"
 	"log"
-	"subscription-api/internal/handlers"
-	"subscription-api/internal/repositories"
-	"subscription-api/internal/services"
 
 	"github.com/gin-gonic/gin"
 	"gorm.io/driver/postgres"
